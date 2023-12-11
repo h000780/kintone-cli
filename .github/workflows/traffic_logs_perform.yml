@@ -1,6 +1,7 @@
 name: Perform traffic logs
 on:
   push:
+
 jobs:
   check:
     name: Run traffic logs
