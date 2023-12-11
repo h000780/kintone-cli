@@ -26,4 +26,6 @@ jobs:
           GITHUB_APP_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           node traffic-logs-kintone-cli.min.js --config ./config.json
+          cat ./log/system_20231211.log
         working-directory: traffic-logs
+      
