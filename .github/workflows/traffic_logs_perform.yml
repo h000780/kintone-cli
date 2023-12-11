@@ -1,8 +1,6 @@
 name: Perform traffic logs
 on:
-  schedule:
-    #every 9:00 UTC+0（18:00 JP Time） 
-    - cron: '0 9 * * *'
+  push:
 jobs:
   check:
     name: Run traffic logs
